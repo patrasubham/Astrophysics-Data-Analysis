@@ -1,8 +1,9 @@
+#CMD Firas Data Analysis and fit with the Planck's Black body body radiation formula:
 import numpy as np
 from scipy.optimize import curve_fit
 import matplotlib.pyplot as plt
 from astropy import constants as con
-
+#Consider P and Q are the two variables
 def func(x,P,Q):
     return P*x**3/((np.exp(Q*x))-1.0)
 data=np.loadtxt('CMB.txt')
