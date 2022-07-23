@@ -1,4 +1,4 @@
-#CMD Firas Data Analysis and fit with the Planck's Black body body radiation formula:
+#Cosmic Microwave Background(CMB)Firas Data Analysis and fit with the Planck's Black body body radiation formula:
 import numpy as np
 from scipy.optimize import curve_fit
 import matplotlib.pyplot as plt
