@@ -1,3 +1,4 @@
+# Hulse Taylor Data analysis
 import numpy as np
 from scipy.optimize import curve_fit
 import matplotlib.pyplot as plt
@@ -6,8 +7,6 @@ from astropy import constants as con
 def func(t,A,t_0):
     return A*(t-t_0)**2
 data=np.loadtxt('Hulse_Taylor.txt')
-
-
 
 a=data[:,0]
 b=data[:,1]
