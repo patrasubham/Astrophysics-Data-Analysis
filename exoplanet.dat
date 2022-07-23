@@ -1,16 +1,6 @@
-#Following this description there are three columns 
-#of numbers, which are the observations of the transiting 
-#planet system HD209458 as presented in figure 2 of
-#Charbonneau, D., Brown, T. M., Latham, D. W., & Mayor, M. 2000, ApJ, 529, L45.
-#
 #The first column lists the fractions of a day from the time at the center of the transit.
-#The second column lists the relative fluxes of HD 209458.
+#The second column lists the relative fluxes 
 #The third column lists the 1 sigma errors bars for these values.
-#
-#For further details, please consult the description of 
-#the data as presented in the paper, or contact 
-#David Charbonneau (dcharbonneau@cfa.harvard.edu), or 
-#Timothy Brown (timbrown@hao.ucar.edu). 
 
     -0.148856     0.998605   0.00150000
     -0.145384     0.999884   0.00150000
